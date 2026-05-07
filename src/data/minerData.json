@@ -1,0 +1,228 @@
+{
+  "card": {
+    "name": "Miner",
+    "namePortuguese": "Mineiro",
+    "rarity": "Legendary",
+    "type": "Troop",
+    "elixirCost": 3,
+    "arena": 6,
+    "description": "Can be deployed anywhere in the Arena. He tunnels to his target, dealing damage to ground troops while underground.",
+    "descriptionPortuguese": "Pode ser implantado em qualquer lugar da Arena. Ele cava até lá, causando dano às tropas inimigas enquanto viaja."
+  },
+  "stats": {
+    "level14": {
+      "hitpoints": 1060,
+      "damage": 160,
+      "dps": 133,
+      "attackSpeed": 1.2,
+      "speed": "Fast",
+      "deployTime": 1.0,
+      "tunnelTime": 1.0,
+      "range": "Melee",
+      "targets": "Ground"
+    },
+    "level13": {
+      "hitpoints": 980,
+      "damage": 147,
+      "dps": 122,
+      "attackSpeed": 1.2,
+      "speed": "Fast",
+      "deployTime": 1.0,
+      "tunnelTime": 1.0,
+      "range": "Melee",
+      "targets": "Ground"
+    }
+  },
+  "nerfHistory": [
+    {
+      "date": "2016-05-03",
+      "version": "Release",
+      "changes": ["Card added to the game"],
+      "impact": "high"
+    },
+    {
+      "date": "2016-09-19",
+      "version": "Balance Update",
+      "changes": ["Deploy Time increased: 0.7s → 1s"],
+      "impact": "low"
+    },
+    {
+      "date": "2016-11-01",
+      "version": "Balance Update",
+      "changes": ["HP decreased by 6%"],
+      "impact": "medium"
+    },
+    {
+      "date": "2016-12-13",
+      "version": "Balance Update",
+      "changes": ["Damage decreased by 6%"],
+      "impact": "medium"
+    },
+    {
+      "date": "2017-06-19",
+      "version": "Balance Update",
+      "changes": [
+        "Attack speed decreased: 1.0s → 1.2s",
+        "First attack faster: 0.7s"
+      ],
+      "impact": "high"
+    },
+    {
+      "date": "2017-08-21",
+      "version": "Balance Update",
+      "changes": ["Deploy Time increased: 1s → 1.2s"],
+      "impact": "low"
+    },
+    {
+      "date": "2017-10-09",
+      "version": "Balance Update",
+      "changes": [
+        "Crown Tower damage decreased by 20%",
+        "HP decreased by 6%"
+      ],
+      "impact": "high"
+    },
+    {
+      "date": "2018-02-12",
+      "version": "Balance Update",
+      "changes": ["First attack: 0.7s → 1.2s (normalized)"],
+      "impact": "medium"
+    },
+    {
+      "date": "2018-04-02",
+      "version": "Balance Update",
+      "changes": ["Crown Tower damage increased by 33%"],
+      "impact": "medium"
+    },
+    {
+      "date": "2020-06-01",
+      "version": "Balance Update",
+      "changes": ["Crown Tower damage decreased by 35%"],
+      "impact": "high"
+    },
+    {
+      "date": "2020-09-07",
+      "version": "Balance Update",
+      "changes": ["HP increased by 3%"],
+      "impact": "low"
+    },
+    {
+      "date": "2020-10-05",
+      "version": "Balance Update",
+      "changes": ["Crown Tower damage increased by 10%"],
+      "impact": "low"
+    },
+    {
+      "date": "2021-01-06",
+      "version": "Balance Update",
+      "changes": ["Crown Tower damage increased by 10%"],
+      "impact": "low"
+    },
+    {
+      "date": "2021-06-07",
+      "version": "Balance Update",
+      "changes": ["HP increased by 3%"],
+      "impact": "low"
+    },
+    {
+      "date": "2021-10-27",
+      "version": "Level 14 Update",
+      "changes": ["Stats rebalanced for Level 14"],
+      "impact": "medium"
+    },
+    {
+      "date": "2022-03-07",
+      "version": "Balance Update",
+      "changes": ["HP decreased by 3%"],
+      "impact": "low"
+    }
+  ],
+  "synergies": [
+    {
+      "card": "Poison",
+      "level": "High",
+      "reason": "Eliminates defensive troops while Miner tanks"
+    },
+    {
+      "card": "Zap",
+      "level": "High",
+      "reason": "Resets towers and troops for extra damage"
+    },
+    {
+      "card": "Princess",
+      "level": "Medium",
+      "reason": "Creates dual lane pressure"
+    },
+    {
+      "card": "Magic Archer",
+      "level": "High",
+      "reason": "Strong air support for Miner"
+    },
+    {
+      "card": "Fireball",
+      "level": "Medium",
+      "reason": "Removes medium health defenses"
+    },
+    {
+      "card": "Bats",
+      "level": "Medium",
+      "reason": "Quick damage tank and distraction"
+    }
+  ],
+  "counters": [
+    {
+      "card": "Mini P.E.K.K.A",
+      "danger": "high",
+      "reason": "High damage output eliminates Miner quickly"
+    },
+    {
+      "card": "Knight",
+      "danger": "medium",
+      "reason": "Good HP and damage for positive elixir trade"
+    },
+    {
+      "card": "Spirits",
+      "danger": "low",
+      "reason": "Cheap cycle cards that can help defend"
+    },
+    {
+      "card": "Valkyrie",
+      "danger": "high",
+      "reason": "Area damage and high HP counters effectively"
+    }
+  ],
+  "popularDecks": [
+    {
+      "name": "Miner Control",
+      "cards": ["Miner", "Poison", "Magic Archer", "Valkyrie", "Bats", "Skeletons", "The Log", "Tornado"],
+      "winRate": "54%",
+      "archetype": "Control"
+    },
+    {
+      "name": "Miner Poison",
+      "cards": ["Miner", "Poison", "Knight", "Bats", "Spear Goblins", "Ice Spirit", "The Log", "Inferno Tower"],
+      "winRate": "52%",
+      "archetype": "Control"
+    },
+    {
+      "name": "Miner Wall Breakers",
+      "cards": ["Miner", "Wall Breakers", "Bats", "Spear Goblins", "Ice Spirit", "Fireball", "The Log", "Tesla"],
+      "winRate": "51%",
+      "archetype": "Cycle"
+    }
+  ],
+  "trivia": {
+    "releaseDate": "May 3, 2016",
+    "initialCost": 3,
+    "totalBalanceChanges": 16,
+    "mostUsedWith": ["Poison", "The Log", "Bats"],
+    "proPlayerUsage": "High",
+    "tournamentWins": 100,
+    "funFacts": [
+      "First card that could be deployed anywhere on the Arena",
+      "One of the most balanced legendary cards",
+      "Has been meta-relevant for over 6 years",
+      "Used in over 100 tournament-winning decks"
+    ]
+  }
+}
